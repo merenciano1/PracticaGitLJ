@@ -44,7 +44,6 @@
             this.label1.Size = new System.Drawing.Size(34, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Texto";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtTelegrama
             // 
@@ -53,7 +52,6 @@
             this.txtTelegrama.Name = "txtTelegrama";
             this.txtTelegrama.Size = new System.Drawing.Size(327, 159);
             this.txtTelegrama.TabIndex = 1;
-            this.txtTelegrama.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // chkUrgente
             // 
@@ -64,7 +62,6 @@
             this.chkUrgente.TabIndex = 2;
             this.chkUrgente.Text = "Urgente ?";
             this.chkUrgente.UseVisualStyleBackColor = true;
-            this.chkUrgente.CheckedChanged += new System.EventHandler(this.chkUrgente_CheckedChanged);
             // 
             // label2
             // 
@@ -81,7 +78,6 @@
             this.txtPrecio.Name = "txtPrecio";
             this.txtPrecio.Size = new System.Drawing.Size(123, 20);
             this.txtPrecio.TabIndex = 4;
-            this.txtPrecio.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
             // 
             // btnCalcularPrecio
             // 
